@@ -2,8 +2,9 @@
 using Sandiso.Models;
 using System.Diagnostics;
 
-namespace SandisoWeb.Controllers
+namespace SandisoWeb.Areas.Customer.Controllers
 {
+    [Area("Customer")]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
